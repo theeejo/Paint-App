@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Canvas Paint App</h1>
+    <div id="content">
+      <div id="toolbar">
+        <p><label>Instrument: <select id="selection">
+          <option value="ellipse">Ellipse</option>
+          <option value="circle">Circle</option>
+          <option value="rectangle">Rectangle</option>
+          <option value="line">Line</option>
+        </select></label>
+        <label>Color: <input type="color" id="color" value="#000000"></label>
+        <label>Thickness: <input type="range" name="thickness" min="0" max="15" id="thickness" step="1" value="0"
+          onchange="this.setAttribute('value',this.value);"></label>
+        <label>Background color: <input type="color" id="backgroundColor" value="#FFFFFF" onchange="Background(this.value)"></label>
+        <button id="clearBtn" onclick="Clear()">New Canvas</button>
+        <button id="downloadBtn" onclick="DownloadImage(this)">Download</button>
+
+      </p>
+        
+      </div>
+      <div>
+        <div id="container-canvas">
+          <canvas id="canvas1" width="850" height="500"></canvas>
+        </div>
+        <ul id="lista">
+          <li>Ellipses: <label id="ellipses">0</label></li>
+          <li>Circles: <label id="circles">0</label></li>
+          <li>Rectangles: <label id="rectangles">0</label></li>
+          <li>Lines: <label id="lines">0</label></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+

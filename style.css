@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(to right, #e6ebdd, #ffeeee);
+  font-family: 'Poppins', sans-serif;
+}
+
+#container-canvas {
+  position: relative;
+  margin-left: 20rem;
+}
+
+#canvas1 {
+  border: 1px solid #000;
+  background-color: rgb(255, 255, 255);
+}
+
+#canvas2 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  cursor: crosshair;
+}
+
+#toolbar {
+  justify-content: start;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#lista {
+  margin-left: 40rem;
+}
+
+h1 {
+  width: 100%;
+  background: linear-gradient(to left, #e6ebdd, #ffeeee);
+  font-style: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  margin-left: 20px;
+  background-color: rgb(225, 231, 209);
+  border: none;
+  color: rgb(102, 101, 101);
+  padding: 12px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: #c7d4af;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+  transform: translateY(3.5px);
+}
+
+p {
+  margin-left: 16rem;
+}
