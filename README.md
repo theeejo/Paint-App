@@ -10,3 +10,10 @@ Functionalities:
 - changing the background color
 - clearing the canvas
 - save the result as .png
+
+### Usage Demo
+
+Using the elements to draw something on canvas, saving the result as .png and clearing the canvas.
+
+https://user-images.githubusercontent.com/89813870/195349305-1474d366-8f42-46ae-b36e-c71228100e86.mp4
+
