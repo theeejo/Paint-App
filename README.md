@@ -2,7 +2,7 @@
 
 Simple painting app in the browser with Vanilla JS using canvas + export of the result
 
-Functionalities:
+### Functionalities
 
 - browsing between instruments to draw with
 - changing instrument color
