@@ -1,6 +1,6 @@
 # Paint-App
 
-Simple painting app in the browser with Vanilla JS using canvas + export of the result
+Painting app in the browser with Vanilla JS using canvas + export of the result
 
 ### Functionalities
 
